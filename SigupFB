@@ -1,0 +1,13 @@
+	@FindBy(xpath="//input[@name='firstname']") private WebElement fName;
+	@FindBy(xpath="//input[@name='lastname']") private WebElement LName;
+	@FindBy(xpath="//input[@name=\'reg_email__\']") private WebElement eMail;
+	@FindBy(xpath="//input[@name=\'reg_passwd__\']") private WebElement passw;
+	@FindBy(xpath="//select[@name='birthday_day']") private WebElement dBirth;
+	@FindBy(xpath="//select[@name='birthday_month']") private WebElement dMonth;
+	@FindBy(xpath="//select[@name='birthday_year']") private WebElement dYear;
+	@FindBy(xpath="//label[text()='Male']") private WebElement genderClick;
+	@FindBy(xpath="//input[@name=\'reg_email_confirmation__\']") private WebElement reMail;
+	@FindBy(xpath="//button[@name=\'websubmit\']") private WebElement submit;
+	@FindBy(xpath="//label[text()='Female']") private WebElement genderFemale; 
+		//Initialization
+		
