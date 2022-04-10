@@ -1,0 +1,6 @@
+
+	public static void main(String[] args) throws EncryptedDocumentException, IOException, InterruptedException {
+		System.setProperty("webdriver.chrome.driver", Config.chromedriverpath);
+		 driver = new ChromeDriver();
+		driver.get("https://www.facebook.com/");
+		driver.manage().window().maximize();
